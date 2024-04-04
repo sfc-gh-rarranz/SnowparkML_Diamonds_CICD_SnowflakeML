@@ -1,0 +1,17 @@
+snowsql_config_path = "~/.snowsql/config"
+snowsql_connection_name = "dev"
+
+[default]
+input_parameters = "()"
+return_type = "string"
+file = "app.zip"
+name = "DIAMOND_PRICE_BATCH_PRED_SPROC"
+handler = "batch_pred.main"
+execute_as_caller = true
+
+[dev]
+database = "ML_HOL_DB"
+schema = "ML_HOL_SCHEMA"
+warehouse = "ML_HOL_WH"
+role = "ACCOUNTADMIN"
+overwrite = true

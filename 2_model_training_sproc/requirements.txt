@@ -1,0 +1,8 @@
+snowflake-snowpark-python
+snowflake-ml-python
+toml # for local development
+pandas
+cachetools
+numpy
+
+

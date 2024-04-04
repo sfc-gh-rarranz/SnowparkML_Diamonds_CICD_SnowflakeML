@@ -1,0 +1,4 @@
+snowflake-cli-labs==0.2.9
+snowflake-ml-python==1.2.3
+snowflake-snowpark-python==1.11.0
+pandas==1.5.3

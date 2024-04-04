@@ -1,0 +1,14 @@
+conda env create --name my_env_name --file=environment.yml
+conda env create --name my_env_name --file=local_env_requirements.txt
+
+conda env remove --name my_env_name
+
+conda activate _my_env_name
+conda deactivate 
+
+
+
+conda info --envs -- to see all env names
+pip freeze
+conda env export -- to see specific env dependencies installed
+
