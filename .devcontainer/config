@@ -1,0 +1,9 @@
+# SnowSQL config
+
+[connections.dev]
+accountname = 
+username = 
+password = 
+rolename = 
+warehousename = 
+dbname = 
