@@ -1,4 +1,4 @@
-# SnowSQL config 
+# SnowSQL config
 
 [connections.dev]
 accountname = 
